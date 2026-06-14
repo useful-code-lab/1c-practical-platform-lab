@@ -7,15 +7,18 @@
 				<CommandName>Form.Command.Проверить_Шаг_1</CommandName>
 				<ExtendedTooltip name="ФормаПроверить_Шаг_1РасширеннаяПодсказка" id="2"/>
 			</Button>
+			<Button name="Проверить_Шаг_2" id="3">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Проверить_Шаг_2</CommandName>
+				<ExtendedTooltip name="Проверить_Шаг_2РасширеннаяПодсказка" id="4"/>
+			</Button>
+			<Button name="Проверить_Шаг_3" id="5">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Проверить_Шаг_3</CommandName>
+				<ExtendedTooltip name="Проверить_Шаг_3РасширеннаяПодсказка" id="6"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
-	<ChildItems>
-		<Button name="Проверить_Шаг_2" id="3">
-			<Type>UsualButton</Type>
-			<CommandName>Form.Command.Проверить_Шаг_2</CommandName>
-			<ExtendedTooltip name="Проверить_Шаг_2РасширеннаяПодсказка" id="4"/>
-		</Button>
-	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -54,6 +57,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Проверить_Шаг_2</Action>
+		</Command>
+		<Command name="Проверить_Шаг_3" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаг 3: Преобразование типов в BSL</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить шаг 3</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Проверить_Шаг_3</Action>
 		</Command>
 	</Commands>
 </Form>
