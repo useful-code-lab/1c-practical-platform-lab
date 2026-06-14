@@ -17,6 +17,11 @@
 				<CommandName>Form.Command.Проверить_Шаг_3</CommandName>
 				<ExtendedTooltip name="Проверить_Шаг_3РасширеннаяПодсказка" id="6"/>
 			</Button>
+			<Button name="Вопрос_1_04" id="7">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Вопрос_1_04</CommandName>
+				<ExtendedTooltip name="Вопрос_1_04РасширеннаяПодсказка" id="8"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Attributes>
@@ -72,6 +77,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Проверить_Шаг_3</Action>
+		</Command>
+		<Command name="Вопрос_1_04" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.04. Составной тип в запросах</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 04</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_04</Action>
 		</Command>
 	</Commands>
 </Form>
