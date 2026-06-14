@@ -27,20 +27,18 @@
 				<CommandName>Form.Command.Вопрос_1_05</CommandName>
 				<ExtendedTooltip name="Вопрос_1_05РасширеннаяПодсказка" id="10"/>
 			</Button>
+			<Button name="ФормаВопрос_1_06" id="11">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Вопрос_1_06</CommandName>
+				<ExtendedTooltip name="ФормаВопрос_1_06РасширеннаяПодсказка" id="12"/>
+			</Button>
+			<Button name="Вопрос_1_07" id="13">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Вопрос_1_07</CommandName>
+				<ExtendedTooltip name="Вопрос_1_07РасширеннаяПодсказка" id="14"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
-	<ChildItems>
-		<UsualGroup name="Группа1" id="13">
-			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="14"/>
-			<ChildItems>
-				<Button name="ФормаВопрос_1_06" id="11">
-					<Type>UsualButton</Type>
-					<CommandName>Form.Command.Вопрос_1_06</CommandName>
-					<ExtendedTooltip name="ФормаВопрос_1_06РасширеннаяПодсказка" id="12"/>
-				</Button>
-			</ChildItems>
-		</UsualGroup>
-	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -139,6 +137,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_1_06</Action>
+		</Command>
+		<Command name="Вопрос_1_07" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.07. Транзакции и Попытка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 07</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_07</Action>
 		</Command>
 	</Commands>
 </Form>
