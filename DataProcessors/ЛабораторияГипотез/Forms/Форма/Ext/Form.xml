@@ -9,6 +9,13 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<ChildItems>
+		<Button name="Проверить_Шаг_2" id="3">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Проверить_Шаг_2</CommandName>
+			<ExtendedTooltip name="Проверить_Шаг_2РасширеннаяПодсказка" id="4"/>
+		</Button>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -32,6 +39,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Проверить_Шаг_1</Action>
+		</Command>
+		<Command name="Проверить_Шаг_2" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаг 2: Логика NULL в запросах</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить шаг 2</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Проверить_Шаг_2</Action>
 		</Command>
 	</Commands>
 </Form>
