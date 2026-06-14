@@ -22,6 +22,11 @@
 				<CommandName>Form.Command.Вопрос_1_04</CommandName>
 				<ExtendedTooltip name="Вопрос_1_04РасширеннаяПодсказка" id="8"/>
 			</Button>
+			<Button name="Вопрос_1_05" id="9">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Вопрос_1_05</CommandName>
+				<ExtendedTooltip name="Вопрос_1_05РасширеннаяПодсказка" id="10"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Attributes>
@@ -92,6 +97,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_1_04</Action>
+		</Command>
+		<Command name="Вопрос_1_05" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.05. Фильтры виртуальных таблиц</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 05</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_05</Action>
 		</Command>
 	</Commands>
 </Form>
