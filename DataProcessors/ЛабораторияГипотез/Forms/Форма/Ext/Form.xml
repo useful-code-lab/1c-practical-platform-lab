@@ -58,6 +58,11 @@
 					<CommandName>Form.Command.Вопрос_1_10</CommandName>
 					<ExtendedTooltip name="Вопрос_1_10РасширеннаяПодсказка" id="22"/>
 				</Button>
+				<Button name="Вопрос_1_11" id="23">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Вопрос_1_11</CommandName>
+					<ExtendedTooltip name="Вопрос_1_11РасширеннаяПодсказка" id="24"/>
+				</Button>
 			</ChildItems>
 		</CommandBar>
 	</ChildItems>
@@ -219,6 +224,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_1_10</Action>
+		</Command>
+		<Command name="Вопрос_1_11" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.11. Навигационные ссылки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 11</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_11</Action>
 		</Command>
 	</Commands>
 </Form>
