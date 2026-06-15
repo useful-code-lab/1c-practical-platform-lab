@@ -73,6 +73,11 @@
 					<CommandName>Form.Command.Вопрос_1_13</CommandName>
 					<ExtendedTooltip name="Вопрос_1_13РасширеннаяПодсказка" id="26"/>
 				</Button>
+				<Button name="Вопрос_1_14" id="29">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_1_14</CommandName>
+					<ExtendedTooltip name="Вопрос_1_14РасширеннаяПодсказка" id="30"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -279,6 +284,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_1_13</Action>
+		</Command>
+		<Command name="Вопрос_1_14" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.14. Сравнение Число/Строка в запросах</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 14</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_14</Action>
 		</Command>
 	</Commands>
 </Form>
