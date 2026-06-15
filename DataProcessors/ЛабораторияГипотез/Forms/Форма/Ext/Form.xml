@@ -130,6 +130,16 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="Группа4" id="51">
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<Button name="Вопрос_2_08" id="53">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_08</CommandName>
+					<ExtendedTooltip name="Вопрос_2_08РасширеннаяПодсказка" id="54"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -484,6 +494,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_2_06</Action>
+		</Command>
+		<Command name="Вопрос_2_08" id="24">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.08. Последовательности документов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 08</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_08</Action>
+		</Command>
+		<Command name="Вопрос_2_07" id="25">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.07. БлокироватьДляИзменения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 07</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_07</Action>
 		</Command>
 	</Commands>
 </Form>
