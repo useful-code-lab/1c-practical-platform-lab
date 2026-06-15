@@ -138,6 +138,16 @@
 					<CommandName>Form.Command.Вопрос_2_08</CommandName>
 					<ExtendedTooltip name="Вопрос_2_08РасширеннаяПодсказка" id="54"/>
 				</Button>
+				<Button name="Вопрос_2_07" id="55">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_07</CommandName>
+					<ExtendedTooltip name="Вопрос_2_07РасширеннаяПодсказка" id="56"/>
+				</Button>
+				<Button name="Вопрос_2_10" id="57">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_10</CommandName>
+					<ExtendedTooltip name="Вопрос_2_10РасширеннаяПодсказка" id="58"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -525,5 +535,36 @@
 			</ToolTip>
 			<Action>Вопрос_2_07</Action>
 		</Command>
+		<Command name="Вопрос_2_09" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.09. Ключ уникальности регистров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 09</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_09</Action>
+		</Command>
+		<Command name="Вопрос_2_10" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.09. Ключ уникальности регистров</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 09</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_09</Action>
+		</Command>
+		<Command name="Команда1" id="28"/>
 	</Commands>
 </Form>
