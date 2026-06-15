@@ -108,6 +108,11 @@
 					<CommandName>Form.Command.Вопрос_2_02</CommandName>
 					<ExtendedTooltip name="Вопрос_2_02РасширеннаяПодсказка" id="42"/>
 				</Button>
+				<Button name="Вопрос_2_03" id="43">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_03</CommandName>
+					<ExtendedTooltip name="Вопрос_2_03РасширеннаяПодсказка" id="44"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -404,6 +409,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_2_02</Action>
+		</Command>
+		<Command name="Вопрос_2_03" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.03. Где живут блокировки?</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 03</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_03</Action>
 		</Command>
 	</Commands>
 </Form>
