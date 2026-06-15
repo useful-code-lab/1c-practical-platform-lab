@@ -78,6 +78,16 @@
 					<CommandName>Form.Command.Вопрос_1_14</CommandName>
 					<ExtendedTooltip name="Вопрос_1_14РасширеннаяПодсказка" id="30"/>
 				</Button>
+				<Button name="Вопрос_1_15" id="33">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_1_15</CommandName>
+					<ExtendedTooltip name="Вопрос_1_15РасширеннаяПодсказка" id="34"/>
+				</Button>
+				<Button name="Вопрос_1_16" id="31">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_1_16</CommandName>
+					<ExtendedTooltip name="Вопрос_1_16РасширеннаяПодсказка" id="32"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -299,6 +309,51 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_1_14</Action>
+		</Command>
+		<Command name="Вопрос_1_16" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.16. Оператор В ИЕРАРХИИ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 16</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_16</Action>
+		</Command>
+		<Command name="Вопрос_1_15" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.15. Оператор ПОДОБНО</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 15</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_15</Action>
+		</Command>
+		<Command name="Вопрос_1_17" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.17. Оператор В и большие массивы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 17</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_17</Action>
 		</Command>
 	</Commands>
 </Form>
