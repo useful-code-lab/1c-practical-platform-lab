@@ -65,6 +65,16 @@
 				</Button>
 			</ChildItems>
 		</CommandBar>
+		<UsualGroup name="Группа2" id="27">
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<Button name="Вопрос_1_13" id="25">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_1_13</CommandName>
+					<ExtendedTooltip name="Вопрос_1_13РасширеннаяПодсказка" id="26"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -254,6 +264,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_1_12</Action>
+		</Command>
+		<Command name="Вопрос_1_13" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.13. ВЫРАЗИТЬ для строк</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 13</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_13</Action>
 		</Command>
 	</Commands>
 </Form>
