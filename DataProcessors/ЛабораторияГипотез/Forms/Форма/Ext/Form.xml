@@ -118,6 +118,16 @@
 					<CommandName>Form.Command.Вопрос_2_04</CommandName>
 					<ExtendedTooltip name="Вопрос_2_04РасширеннаяПодсказка" id="46"/>
 				</Button>
+				<Button name="Вопрос_2_05" id="47">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_05</CommandName>
+					<ExtendedTooltip name="Вопрос_2_05РасширеннаяПодсказка" id="48"/>
+				</Button>
+				<Button name="Вопрос_2_06" id="49">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_06</CommandName>
+					<ExtendedTooltip name="Вопрос_2_06РасширеннаяПодсказка" id="50"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -444,6 +454,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_2_04</Action>
+		</Command>
+		<Command name="Вопрос_2_05" id="22">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.05. Разделение итогов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 05</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_05</Action>
+		</Command>
+		<Command name="Вопрос_2_06" id="23">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.06. Таймаут блокировок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 06</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_06</Action>
 		</Command>
 	</Commands>
 </Form>
