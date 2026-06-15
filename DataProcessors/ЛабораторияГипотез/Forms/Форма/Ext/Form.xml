@@ -27,23 +27,35 @@
 				<CommandName>Form.Command.Вопрос_1_05</CommandName>
 				<ExtendedTooltip name="Вопрос_1_05РасширеннаяПодсказка" id="10"/>
 			</Button>
-			<Button name="ФормаВопрос_1_06" id="11">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.Вопрос_1_06</CommandName>
-				<ExtendedTooltip name="ФормаВопрос_1_06РасширеннаяПодсказка" id="12"/>
-			</Button>
-			<Button name="Вопрос_1_07" id="13">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.Вопрос_1_07</CommandName>
-				<ExtendedTooltip name="Вопрос_1_07РасширеннаяПодсказка" id="14"/>
-			</Button>
-			<Button name="Вопрос_1_08" id="15">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.Вопрос_1_08</CommandName>
-				<ExtendedTooltip name="Вопрос_1_08РасширеннаяПодсказка" id="16"/>
-			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<ChildItems>
+		<CommandBar name="Группа1" id="19">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<Button name="Вопрос_1_07" id="13">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Вопрос_1_07</CommandName>
+					<ExtendedTooltip name="Вопрос_1_07РасширеннаяПодсказка" id="14"/>
+				</Button>
+				<Button name="Вопрос_1_08" id="15">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Вопрос_1_08</CommandName>
+					<ExtendedTooltip name="Вопрос_1_08РасширеннаяПодсказка" id="16"/>
+				</Button>
+				<Button name="ФормаВопрос_1_09" id="17">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Вопрос_1_09</CommandName>
+					<ExtendedTooltip name="ФормаВопрос_1_09РасширеннаяПодсказка" id="18"/>
+				</Button>
+				<Button name="ФормаВопрос_1_06" id="11">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Вопрос_1_06</CommandName>
+					<ExtendedTooltip name="ФормаВопрос_1_06РасширеннаяПодсказка" id="12"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
 			<Type>
@@ -172,6 +184,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_1_08</Action>
+		</Command>
+		<Command name="Вопрос_1_09" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.09. Индексы во ВТ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 09</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_09</Action>
 		</Command>
 	</Commands>
 </Form>
