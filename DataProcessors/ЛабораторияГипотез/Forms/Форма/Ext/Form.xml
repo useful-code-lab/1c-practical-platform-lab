@@ -53,6 +53,11 @@
 					<CommandName>Form.Command.Вопрос_1_06</CommandName>
 					<ExtendedTooltip name="ФормаВопрос_1_06РасширеннаяПодсказка" id="12"/>
 				</Button>
+				<Button name="Вопрос_1_10" id="21">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.Вопрос_1_10</CommandName>
+					<ExtendedTooltip name="Вопрос_1_10РасширеннаяПодсказка" id="22"/>
+				</Button>
 			</ChildItems>
 		</CommandBar>
 	</ChildItems>
@@ -199,6 +204,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_1_09</Action>
+		</Command>
+		<Command name="Вопрос_1_10" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.10. Прочитать() vs ПолучитьОбъект()</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 10</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_10</Action>
 		</Command>
 	</Commands>
 </Form>
