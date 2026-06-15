@@ -240,5 +240,20 @@
 			</ToolTip>
 			<Action>Вопрос_1_11</Action>
 		</Command>
+		<Command name="Вопрос_1_12" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1.12. Предопределенные в запросах</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 1 12</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_1_12</Action>
+		</Command>
 	</Commands>
 </Form>
