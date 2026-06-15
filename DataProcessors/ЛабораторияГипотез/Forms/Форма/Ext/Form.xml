@@ -88,6 +88,26 @@
 					<CommandName>Form.Command.Вопрос_1_16</CommandName>
 					<ExtendedTooltip name="Вопрос_1_16РасширеннаяПодсказка" id="32"/>
 				</Button>
+				<Button name="Вопрос_1_17" id="37">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_1_17</CommandName>
+					<ExtendedTooltip name="Вопрос_1_17РасширеннаяПодсказка" id="38"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="35">
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<Button name="Вопрос_2_01" id="39">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_01</CommandName>
+					<ExtendedTooltip name="Вопрос_2_01РасширеннаяПодсказка" id="40"/>
+				</Button>
+				<Button name="Вопрос_2_02" id="41">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_02</CommandName>
+					<ExtendedTooltip name="Вопрос_2_02РасширеннаяПодсказка" id="42"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -354,6 +374,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_1_17</Action>
+		</Command>
+		<Command name="Вопрос_2_01" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.01. Управляемые блокировки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 01</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_01</Action>
+		</Command>
+		<Command name="Вопрос_2_02" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.02. Режимы блокировок (S и X)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 02</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_02</Action>
 		</Command>
 	</Commands>
 </Form>
