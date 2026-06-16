@@ -565,6 +565,20 @@
 			</ToolTip>
 			<Action>Вопрос_2_09</Action>
 		</Command>
-		<Command name="Команда1" id="28"/>
+		<Command name="Вопрос_2_11" id="28">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.11. ОбменДанными.Загрузка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 11</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_11</Action>
+		</Command>
 	</Commands>
 </Form>
