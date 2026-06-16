@@ -158,6 +158,11 @@
 					<CommandName>Form.Command.Вопрос_2_12</CommandName>
 					<ExtendedTooltip name="Вопрос_2_12РасширеннаяПодсказка" id="62"/>
 				</Button>
+				<Button name="Вопрос_2_13" id="63">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_13</CommandName>
+					<ExtendedTooltip name="Вопрос_2_13РасширеннаяПодсказка" id="64"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -604,6 +609,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_2_12</Action>
+		</Command>
+		<Command name="Вопрос_2_13" id="30">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.13. Физические таблицы остатков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 13</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_13</Action>
 		</Command>
 	</Commands>
 </Form>

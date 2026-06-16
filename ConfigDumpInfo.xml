@@ -4,8 +4,8 @@
 		<Metadata name="Catalog.Номенклатура" id="7c824436-330c-4808-92ec-e0775b3f4ff3" configVersion="36b1e70179cdf74ca8fa86b051e308fb00000000"/>
 		<Metadata name="Configuration.Конфигурация" id="ec104c4a-9c3b-42f9-8b8e-1673208989f0" configVersion="28dd952c8bdc84429c1d7d94854ab5be00000000"/>
 		<Metadata name="DataProcessor.ЛабораторияГипотез" id="5409d023-62de-4d24-8f81-2b58b8e568cd" configVersion="088765bca9802841a1d21463dad7ad1300000000"/>
-		<Metadata name="DataProcessor.ЛабораторияГипотез.Form.Форма" id="752d02af-d814-44a1-8564-1db30d90a308" configVersion="c6a26ff8d1e6574ba914b899fb70f8e500000000"/>
-		<Metadata name="DataProcessor.ЛабораторияГипотез.Form.Форма.Form" id="752d02af-d814-44a1-8564-1db30d90a308.0" configVersion="9dc298e271d0c542a5a2c50e6a6aa3bf00000000"/>
+		<Metadata name="DataProcessor.ЛабораторияГипотез.Form.Форма" id="752d02af-d814-44a1-8564-1db30d90a308" configVersion="dc2dffbeb4db2347a38d3c15655a396c00000000"/>
+		<Metadata name="DataProcessor.ЛабораторияГипотез.Form.Форма.Form" id="752d02af-d814-44a1-8564-1db30d90a308.0" configVersion="11d827cad49e1a4dafaaefe30f7cd26e00000000"/>
 		<Metadata name="Language.Русский" id="d22d45a9-65e6-42d0-9eea-2f573e73dff7" configVersion="33c55829e823c64da8e504111e3f803800000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
