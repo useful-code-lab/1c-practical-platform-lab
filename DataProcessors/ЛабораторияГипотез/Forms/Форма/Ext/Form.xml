@@ -148,6 +148,16 @@
 					<CommandName>Form.Command.Вопрос_2_10</CommandName>
 					<ExtendedTooltip name="Вопрос_2_10РасширеннаяПодсказка" id="58"/>
 				</Button>
+				<Button name="Вопрос_2_11" id="59">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_11</CommandName>
+					<ExtendedTooltip name="Вопрос_2_11РасширеннаяПодсказка" id="60"/>
+				</Button>
+				<Button name="Вопрос_2_12" id="61">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_12</CommandName>
+					<ExtendedTooltip name="Вопрос_2_12РасширеннаяПодсказка" id="62"/>
+				</Button>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>
@@ -579,6 +589,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_2_11</Action>
+		</Command>
+		<Command name="Вопрос_2_12" id="29">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.12. Логика таблицы Обороты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 12</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_12</Action>
 		</Command>
 	</Commands>
 </Form>
