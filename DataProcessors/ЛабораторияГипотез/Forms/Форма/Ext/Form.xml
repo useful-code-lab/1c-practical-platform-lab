@@ -165,6 +165,21 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="Группа5" id="65">
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="66"/>
+			<ChildItems>
+				<Button name="Вопрос_2_14" id="67">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_14</CommandName>
+					<ExtendedTooltip name="Вопрос_2_14РасширеннаяПодсказка" id="68"/>
+				</Button>
+				<Button name="Вопрос_2_15" id="69">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Вопрос_2_15</CommandName>
+					<ExtendedTooltip name="Вопрос_2_15РасширеннаяПодсказка" id="70"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -624,6 +639,36 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Вопрос_2_13</Action>
+		</Command>
+		<Command name="Вопрос_2_14" id="31">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.14. Момент времени и Граница</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 14</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_14</Action>
+		</Command>
+		<Command name="Вопрос_2_15" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2.15. Использование итогов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вопрос 2 15</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вопрос_2_15</Action>
 		</Command>
 	</Commands>
 </Form>
